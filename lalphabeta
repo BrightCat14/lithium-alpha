@@ -812,7 +812,7 @@ if playerName == "DeuSCeLiR" or playerName == "BrightCat1950" or playerName == "
 	G2L["68"]["BackgroundTransparency"] = 1;
 	G2L["68"]["Size"] = UDim2.new(0, 90, 0, 50);
 	G2L["68"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-	G2L["68"]["Text"] = [[100]];
+	G2L["68"]["Text"] = [[1000]];
 	G2L["68"]["Name"] = [[percentage]];
 	G2L["68"]["Position"] = UDim2.new(-1.52174, 0, -2, 0);
 
