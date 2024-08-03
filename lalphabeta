@@ -1,4 +1,6 @@
 local playerName = game:GetService("Players").LocalPlayer.Name
+print("Player Name:", playerName)  -- Отладочная печать
+
 if playerName == "DeuSCeLiR" or playerName == "BrightCat1950" or playerName == "GhaNgeTeCh" then
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
