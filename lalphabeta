@@ -4207,7 +4207,7 @@ if playerName == "DeuSCeLiR" or playerName == "BrightCat1950" or playerName == "
 			bar.Size = UDim2.new(0, newPosition + thumb.AbsoluteSize.X / 2, bar.Size.Y.Scale, bar.Size.Y.Offset)
 
 			-- Обновление текста
-			local percentage = math.floor((newPosition / (frameAbsoluteSize - thumb.AbsoluteSize.X)) * 100)
+			local percentage = math.floor((newPosition / (frameAbsoluteSize - thumb.AbsoluteSize.X)) * 1000)
 			textLabel.Text = tostring(percentage)
 
 			-- Анимация появления текста
